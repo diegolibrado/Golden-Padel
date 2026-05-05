@@ -1,0 +1,106 @@
+/*TODA LA PAGINA*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #faefcf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CABECERA + BARRA DE BUSQUEDA*/
+/*Cabecera General*/
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d4af37;
+}
+/*Logo*/
+img{
+    height: 80px;
+}
+/*BARRA DE BUSQUEDA*/
+.busqueda{
+    display: flex;
+    align-items: center;
+    width: 600px;    
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff; 
+    transition: border-color 0.4s linear;
+}
+/*Cambios cuando hacemos click en la barra de busqueda*/
+.busqueda:focus-within{
+    border: 2px solid #d4af37;
+}
+.busqueda input{
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+}
+.busqueda button{
+    background-color: transparent;
+    border: none;
+    color: black;
+    height: 100%;
+    padding: 0 15px;
+    cursor: pointer;
+}
+/*Cmabios cuando pasamos el raton por la lupa*/
+.busqueda button:hover{
+    background-color: transparent;
+    color: #a2852e;
+}
+/*Acciones del Usuario*/
+.acciones{
+    display: flex;
+    align-items: center;
+}
+.acciones a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    transition:  0.3s;
+}
+/*Cambios cuando pasamos el raton por encima de los botones de accion del usuario*/
+.acciones a:hover{
+    transform: scale(1.5);
+}
+.idioma{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    padding: 5px 12px;
+    border-radius: 8px;
+    position: relative;
+    width: 70px;
+    height: 35px;
+    margin-right: 20px;
+}
+.idioma select {
+    background: #000;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+}
+.idioma i{
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    right: 8px;
+    pointer-events: none;
+}

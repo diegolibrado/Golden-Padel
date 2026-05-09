@@ -216,6 +216,7 @@ ul li img{
 .seccion{
     padding: 20px 30px;
     border-bottom: 1px solid #d4af37;
+    text-align: center;
 }
 .seccion > p{
     font-weight: bold;

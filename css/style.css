@@ -104,3 +104,13 @@ img{
     right: 8px;
     pointer-events: none;
 }
+
+/*MENU ARTICULOS*/
+.contenedor-Menu{
+    background-color: #d4af37;
+    padding: 20px;
+}
+.contenedor-Menu a{
+    color: black;
+    text-decoration: none;
+}

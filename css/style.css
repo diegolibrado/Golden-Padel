@@ -24,7 +24,7 @@ body {
 }
 /*Logo*/
 img{
-    height: 80px;
+    height: 100px;
 }
 /*BARRA DE BUSQUEDA*/
 .busqueda{
@@ -60,7 +60,7 @@ img{
 /*Cmabios cuando pasamos el raton por la lupa*/
 .busqueda button:hover{
     background-color: transparent;
-    color: #a2852e;
+    color: #d4af37;
 }
 /*Acciones del Usuario*/
 .acciones{
@@ -97,15 +97,12 @@ img{
     font-size: 16px;
     width: 100%;
     cursor: pointer;
-    appearance: none;
-    outline: none;
 }
 .idioma i{
     color: #fff;
     font-size: 10px;
     position: absolute;
     right: 8px;
-    pointer-events: none;
 }
 
 /*MENU ARTICULOS*/
@@ -128,6 +125,7 @@ img{
     font-size: 16px;
 }
 .contenedor-lateral{
+    /*Se oculta el panel*/
     position: fixed;
     top: 0;
     left: 0;
@@ -173,13 +171,10 @@ img{
     color: #000;
 }
 ul li img{
-    height: 25px;
+    height: 20px;
 }
 
 /*Panel Principal*/
-.panel-index{
-    padding: 10px;
-}
 .articulo{
     display: inline-block;
     vertical-align: middle;
@@ -248,10 +243,10 @@ ul li img{
     flex-wrap: wrap;
     justify-content: center;
 }
+/*Hacemos que se cada articulo ocupe el 30% de la pantalla y con lo anterior al llegar al final se salta de linea, asi va de 3 en 3*/
 .panel-palas .articulo{
     width: 30%;
     min-width: 300px;
-    margin: 1.5%;
     padding: 20px;
 }
 .panel-palas .articulo p{
@@ -259,7 +254,6 @@ ul li img{
     font-weight: bold;
 }
 .panel-palas .articulo img{
-    height: auto;
     margin-bottom: 15px;
 }
 /*Panel ropa*/
@@ -274,7 +268,6 @@ ul li img{
 .panel-ropa .articulo{
     width: 30%;
     min-width: 300px;
-    margin: 1.5%;
     padding: 20px;
 }
 .panel-ropa .articulo p{
@@ -282,7 +275,6 @@ ul li img{
     font-weight: bold;
 }
 .panel-ropa .articulo img{
-    height: auto;
     margin-bottom: 15px;
 }
 
@@ -298,7 +290,6 @@ ul li img{
 .panel-pelotas .articulo{
     width: 30%;
     min-width: 300px;
-    margin: 1.5%;
     padding: 20px;
 }
 .panel-pelotas .articulo p{
@@ -306,7 +297,6 @@ ul li img{
     font-weight: bold;
 }
 .panel-pelotas .articulo img{
-    height: auto;
     margin-bottom: 15px;
 }
 
@@ -322,7 +312,6 @@ ul li img{
 .panel-zapatillas .articulo{
     width: 30%;
     min-width: 300px;
-    margin: 1.5%;
     padding: 20px;
 }
 .panel-zapatillas .articulo p{
@@ -330,7 +319,6 @@ ul li img{
     font-weight: bold;
 }
 .panel-zapatillas .articulo img{
-    height: auto;
     margin-bottom: 15px;
 }
 
@@ -346,7 +334,6 @@ ul li img{
 .panel-accesorios .articulo{
     width: 30%;
     min-width: 300px;
-    margin: 1.5%;
     padding: 20px;
 }
 .panel-accesorios .articulo p{
@@ -354,7 +341,6 @@ ul li img{
     font-weight: bold;
 }
 .panel-accesorios .articulo img{
-    height: auto;
     margin-bottom: 15px;
 }
 
